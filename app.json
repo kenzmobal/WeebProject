@@ -8,16 +8,18 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/BianSepang/WeebProject",
+  "repository": "https://github.com/kenzmobal/WeebProject",
   "website": "https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02",
   "stack": "container",
   "env": {
     "ALIVE_NAME": {
       "description": "Name to show in .alive message",
+      "value": "Unknown",
       "required": false
     },
     "ALIVE_LOGO": {
       "description": "Show Image/Logo in .alive message. Fill value of image your link image, use telegra.ph or any direct link image",
+      "value": "https://telegra.ph/file/1b740cb47ed22565505a5.jpg",
       "required": false
     },  	
     "API_KEY": {
@@ -44,11 +46,12 @@
     },
     "UPSTREAM_REPO_URL": {
       "description": "In case you maintain a fork, add your repo URL here.",
-      "value": "https://github.com/BianSepang/WeebProject",
+      "value": "https://github.com/kenzmobal/WeebProject",
       "required": false
     },
     "COUNTRY": {
       "description": "Set your Country to be used in the .time and .date commands.",
+      "value": "ID",
       "required": false
     },
     "TZ_NUMBER": {
@@ -58,15 +61,16 @@
     },
     "OPEN_WEATHER_MAP_APPID": {
       "description": "Get your own APPID (API key)from https://api.openweathermap.org/data/2.5/weather",
+      "value": "6d91e6f72ccc2bfa5729e491e7cdb30a",
       "required": false
     },
     "BOTLOG": {
       "description": "Incase you want to turn off logging, put this to false",
-      "value": "False"
+      "value": "True"
     },
     "BOTLOG_CHATID": {
       "description": "ChatID of the Log group. Set it to '0' if BOTLOG = False and/or if LOGSPAMMER = False.",
-      "value": "0"
+      "value": "-100"
     },
     "CONSOLE_LOGGER_VERBOSE": {
       "description": "If you need verbosity on the console logging",
@@ -74,7 +78,7 @@
     },
     "PM_AUTO_BAN": {
       "description": "PM Auto-Ban Feature Switch. Also known as the 'bleep blop, this is a bot...' module.",
-      "value": "False"
+      "value": "True"
     },
     "OCR_SPACE_API_KEY": {
       "description": "OCR API Key for .ocr command. Get from https://ocr.space/ocrapi",
@@ -82,6 +86,7 @@
     },
     "REM_BG_API_KEY": {
       "description": "API Key for .rbg command. Get from https://www.remove.bg/api",
+      "value": "imwwY3fr7F6tGSno7CX3fVDs",
       "required": false
     },
     "ANTI_SPAMBOT": {
@@ -94,7 +99,7 @@
     },
     "TMP_DOWNLOAD_DIRECTORY": {
       "description": "Download location for many modules (GDrive, .download etc..)",
-      "value": "./downloads/"
+      "value": "./💾/"
     },
     "CLEAN_WELCOME": {
       "description": "When a new person joins, the old welcome message is deleted.",
