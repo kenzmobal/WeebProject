@@ -1,5 +1,5 @@
 # Using Groovy
-FROM biansepang/weebproject:groovy
+FROM kenzmobal/weebproject:latest 
 
 # Clone repo and prepare working directory
 RUN git clone -b master https://github.com/kenzmobal/WeebProject /home/weebproject/
