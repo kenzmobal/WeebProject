@@ -29,13 +29,13 @@ A modular Telegram Userbot running on Python3 with sqlalchemy database.
 
 based on [ProjectBish](https://github.com/adekmaulana/ProjectBish) Userbot
 
-## Generate String Session
-Easy way to get STRING_SESSION.
-[![Run repl.it](https://repl.it/badge/github/kenzmobal/Nutbutt)](https://repl.it/@kenzmobal/string)
- 
- ## Host
-Click this button below to Deploy to Heroku
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/kenzmobal/WeebProject/tree/master"> <img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku"/></a></p>
+## Generate String
+Generate string using repl.it
+<p align="center"><a href="https://repl.it/@kenzmobal/string#main.py"> <img src="https://img.shields.io/badge/Generate%20Session-lightgrey?style=for-the-badge&logo=repl.it" width="210" height="34.45"/></a></p>
+
+## How To Host
+The easiest way to deploy this userbot
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/kenzmobal/WeebProject/tree/master"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a></p>
 
 ## Credits
 * [Adek Maulana](https://github.com/adekmaulana) - ProjectBish
