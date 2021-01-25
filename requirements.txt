@@ -5,6 +5,7 @@ async_generator
 bitlyshortener
 bs4
 CairoSVG
+colour
 cowpy
 cryptg
 cffi
