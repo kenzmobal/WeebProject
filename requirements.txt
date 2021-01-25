@@ -2,6 +2,7 @@ aiohttp
 appdirs
 aria2p
 async_generator
+bitlyshortener
 bs4
 CairoSVG
 cowpy
